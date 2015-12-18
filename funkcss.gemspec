@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
 
   spec.require_paths = ["lib"]
-  spec.files = Dir['dist/*', 'LICENSE.md', 'README.md']
+  spec.files = Dir['funk.css', 'funk-components.css', 'LICENSE.md', 'README.md']
 
   spec.add_development_dependency "bundler", "~> 1.10"
   spec.add_development_dependency "rake", "~> 10.0"
