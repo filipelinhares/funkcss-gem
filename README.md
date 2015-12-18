@@ -5,19 +5,20 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'funkcss'
+gem "funkcss", github: 'filipelinhares/funkcss-gem', branch: :master
 ```
 
 And then execute:
-
-    $ bundle
+```sh
+bundle
+```
 
 ## Usage
 `application.css`
-```css
-/*
- *= require funk-components.css
- */
+```scss
+@import 'funk-components';
+// or
+@import 'funk';
 ```
 
 ## License
